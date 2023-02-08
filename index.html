@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1	{
+	text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 35px;
+}
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(73, 165, 44)
+}
+
+div {
+    height: 400px;
+  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 15px;
+  padding: 40px;
+  font-size: 30px;
+  height: 300px;
+  text-align: center;
+  width: 50%;
+}
+
+nav {
+  float: center;
+  max-width: 100%;
+}
+
+article {
+  float: center;
+  padding: 2px;
+  color: white;
+  max-width: 100%;
+  background-color:rgb(6, 52, 85);
+  height: 300px; /* only for demonstration, should be removed */
+
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <Header>
+        Peculiar Dynamic Teens church
+    </Header>
+    <p style="text-align: center; color: rgb(81, 174, 176)"><i> Hi, welcome to PDTC where stars are born and the least amongst us the greatest of all</i></p>
+    <div>
+        <img src="Bible1.jpg" alt="A teenage girl studying her Bible" style="max-width: 100%;">
+    </div>
+    
+
+    <h1>Teens Memory Verse</h1>
+
+    <div class="flex-container">
+        <div><u>Isaiah 18:10</u>
+            <p> The name of the Lord is a <mark>strong tower</mark> and righteous runs into it and is safe </p>
+        </div>
+        <div><u>John 3:16</u>
+            <p> For God for loved the World that He have us His <mark>only begotten son</mark>, hat who so ever believes in His should not perish but have everlasting life.</div>
+        <div><u>Rom 12:1</u>
+            <p> I beseech you therfore brethren by the mercies of the Lord that ye present your bodies a <mark>living sacrifice</mark>, holy and acceptable unto God which is your reasonable service.</div>  
+    </div>
+
+
+    <section>
+        <h1> You can click the link to gain access to an online <a href="https://kingjames.bible/John-3?gclid=CjwKCAiAioifBhAXEiwApzCztsZIEPqD7f6fVptq13T8d7DAHwdVA4HW0_iA2SCXOeSMnGSvNULnCBoCiyAQAvD_BwE#16" style="color:rgb(73, 165, 44)" target="_blank">Bible</a></h1>
+        <p style="font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;"> Hi Teens, so don't forget that this week you need to study your bible and at moments where you think you are downcast, you can deploy this soul lifting <strong style="color: rgb(13, 7, 69);">Audio</strong> to your spirit man</p>
+        <p align-items: center; >
+            <audio controls>
+                <source src="Nosa.mp3" type="audio/mpeg">
+            </audio>
+        </p>
+</section>
+
+<section>
+
+   <nav>
+    <p style="font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;"> Also provided for you is the <b style="color: rgb(13, 7, 69);"> Video</b> of the song <sup>above</sup> titled <br> <i>"if God be for me" as you watch may you be blessed.</i></p>
+    <video controls>
+        <source src="Nosa.mp4" type="video/mp4" autoplay="1">
+    </video>
+   </nav>
+
+    <article>
+    
+        <h2 style="font-size: 50px; color: rgb(255, 188, 129);"> Teenagers Information Register</h2>
+        <p> Also i'll be in need of your name, so kindly fill the form <sub>below</sub></p>
+    
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    </article>
+    
+</section>
+
+<footer>
+    <p>Thank you for visiting this is teenager to go back up kindly press <a href="#top"; style="color: rgb(255, 188, 129);">top</a></p>
+  </footer>
+</body>
+</html>
